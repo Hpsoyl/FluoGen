@@ -3,7 +3,7 @@
 Codes, representative pre-trained models, test data for FluoGen
 <div align="center">
 
-✨ [**Method**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [** Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
+✨ [**Method**](#-Method-overview) **|** 🚩 [**Paper**](#-Paper) **|** 🔧 [**Install**](#Install)  **|** 🏰 [**Model Download**](#-Model-Download) **|** ⚡ [**Inference**](#-Inference) **|** 💻 [**Training**](#-Training) **|** 🎨 [**Dataset**](#-Dataset)  **|** &#x1F308; [**Results**](#-Results)
 
 </div>
 
