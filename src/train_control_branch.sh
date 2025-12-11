@@ -1,0 +1,22 @@
+accelerate launch src/train_control_branch.py \
+    --CLIP_path="stable-diffusion-v1-5" \
+    --pretrained_model_name_or_path="Pretrained FluoGen model path" \
+    --train_data_dir='dataset/2_down_stream_task/BioSR_CCPs_Reduce.jsonl' \
+    --output_dir="model_output/CCPs_Reduce/" \
+    --validation_image "BioSR/test/CCPs/testing/level_06/001.tif" \
+    --validation_prompt "CCPs of COS-7" \
+    --conditioning_channels=9 \
+    --lr_scheduler="cosine" \
+    --num_validation_images=3 \
+    --num_train_epochs=500 \
+    --resolution=512 \
+    --learning_rate=5e-5 \
+    --train_batch_size=1 \
+    --validation_steps=1000 \
+    --checkpointing_steps=2000 \
+    --gradient_accumulation_steps=4 \
+    --rescale_betas_zero_snr \
+    --lr_scheduler="cosine" \
+    --prediction_type="v_prediction" \
+    --mixed_precision="no" \
+    --dataset_name="BioSR" \

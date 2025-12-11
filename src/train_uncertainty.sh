@@ -1,0 +1,22 @@
+accelerate launch src/train_uncertainty.py \
+    --CLIP_path="stable-diffusion-v1-5" \
+    --pretrained_model_name_or_path="Pretrained FluoGen foundation model path" \
+    --controlnet_model_name_or_path="FluoGen control branch model path" \
+    --conditioning_channels=9 \
+    --mixed_precision="fp16" \
+    --lr_scheduler="cosine" \
+    --num_validation_images=1 \
+    --num_train_epochs=10 \
+    --resolution=512 \
+    --learning_rate=5e-5 \
+    --train_batch_size=2 \
+    --validation_steps=1000 \
+    --checkpointing_steps=2000 \
+    --gradient_accumulation_steps=4 \
+    --lr_scheduler="cosine" \
+    --prediction_type="v_prediction" \
+    --rescale_betas_zero_snr \
+    --train_data_dir='dataset/2_down_stream_task/BioSR_Microtubules_SR.jsonl' \
+    --output_dir="model_output/uncertainty_BioSR_Microtubules" \
+    --validation_image "BioSR/test/Microtubules/testing/level_06/001.tif" \
+    --validation_prompt "microtubule of COS-7" \

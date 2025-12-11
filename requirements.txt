@@ -1,0 +1,45 @@
+# Core Frameworks (PyTorch is recommended to be installed separately, but listed here for reference)
+diffusers==0.30.3
+transformers==4.37.2
+accelerate==1.0.1
+peft==0.13.2
+timm==1.0.13
+pytorch-lightning==2.2.1
+
+# Data Processing & Image
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+scikit-image==0.25.0
+scikit-learn==1.7.0
+opencv-python==4.10.0.84
+pillow==10.4.0
+imageio==2.37.0
+tifffile==2024.12.12
+einops==0.8.0
+
+# Visualization & UI
+gradio==4.43.0
+wandb==0.19.1
+matplotlib==3.10.0
+tensorboard==2.18.0
+rich==13.9.4
+tqdm==4.66.5
+
+# Utilities & Config
+omegaconf==2.3.0
+pyyaml==6.0.2
+fsspec==2024.6.1
+packaging==24.2
+psutil==5.9.0
+requests==2.32.3
+typing-extensions==4.12.2
+safetensors==0.4.5
+filelock==3.13.1
+
+# Metric & Domain Specific
+lpips==0.1.4
+pyiqa==0.1.13
+facexlib==0.3.0
+torchmetrics==1.6.1
+torchsde==0.2.6
