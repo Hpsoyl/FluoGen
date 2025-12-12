@@ -82,6 +82,10 @@ Download the pre-trained models and place them into `./model_output`.
 ### 🌐 Online Web Demo
 For a quick start without local installation, you can try our interactive web demo on Hugging Face Spaces. It supports Text-to-Image generation and basic downstream tasks directly in your browser. Try it here: https://huggingface.co/spaces/FluoGen-Group/FluoGen
 
+<p align="center">
+<img src="assert\Fig8.png" width='600'>
+</p>
+
 ### 🖥️ Local Inference
 #### 1. Prepare models
 Ensure you have downloaded our pre-trained checkpoints (Foundation Model & ControlNet weights) and placed them in the ./model_output/ folder (or specify your own path).
