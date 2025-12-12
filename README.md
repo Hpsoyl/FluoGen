@@ -83,7 +83,7 @@ Download the pre-trained models and place them into `./model_output`.
 For a quick start without local installation, you can try our interactive web demo on Hugging Face Spaces. It supports Text-to-Image generation and basic downstream tasks directly in your browser. Try it here: https://huggingface.co/spaces/FluoGen-Group/FluoGen
 
 <p align="center">
-<img src="assert\Fig8.png" width='600'>
+<img src="assert\Fig8.png" width='800'>
 </p>
 
 ### 🖥️ Local Inference
