@@ -12,7 +12,7 @@ Codes, representative pre-trained models, test data for FluoGen
 <p align="center">
 <img src="assert\Fig1.png" width='600'>
 </p>
-First, we curated a large-scale, heterogeneous dataset comprising 3.5 million high-quality fluorescence microscopy images, paired with textual annotations covering over 3,500 cell types and subcellular components. Second, we developed FluoGen, a diffusion-based generative foundation model that operates directly in pixel space to preserve high-frequency biological details without latent compression. Crucially, we reformulated the learning objective from standard noise prediction to velocity prediction, a strategic design that effectively eliminates the brightness bias inherent in conventional diffusion models and enables the learning of robust, generalizable biological priors.....
+First, we curated a large-scale, heterogeneous dataset comprising 3.5 million high-quality fluorescence microscopy images, paired with textual annotations covering over 3,500 cell types and subcellular components. Second, we developed FluoGen, a diffusion-based generative foundation model that operates directly in pixel space to preserve high-frequency biological details without latent compression. Crucially, we reformulated the learning objective from standard noise prediction to velocity prediction, a strategic design that effectively eliminates the brightness bias inherent in conventional diffusion models and enables the learning of robust, generalizable biological priors.
 <p align="center">
 <img src="assert\Fig2.png" width='600'>
 </p>
