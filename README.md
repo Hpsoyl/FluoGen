@@ -68,10 +68,10 @@ Install the remaining dependencies.
 ## 🏰 Model Download
 | Model  |Download                |
 |:--------- | :------------------------------------------- |
-| Foundation Model  |  Model Link(https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)                                              |
-| FMD     |    Model Link(https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750) 
-| BioSR    |    Model Link(https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
-| Segmentation    |    Model Link(https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
+| Foundation Model  |  [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)                                              |
+| FMD     |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750) 
+| BioSR    |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
+| Segmentation    |    [Model Link](https://figshare.com/articles/software/Pre-trained_models_of_FluoGen/31042744?file=60943750)  
 
 Download the pre-trained models and place them into `./model_output`.
 
